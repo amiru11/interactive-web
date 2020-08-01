@@ -1,0 +1,9 @@
+{
+  "name": "interactive-web",
+  "version": "0.0.1",
+  "description": "Study interactive web",
+  "main": "index.js",
+  "repository": "https://github.com/amiru11/interactive-web.git",
+  "author": "amiru11",
+  "license": "MIT"
+}
