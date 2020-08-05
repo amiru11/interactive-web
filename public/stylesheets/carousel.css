@@ -1,0 +1,41 @@
+.carousel {
+  width: 100%;
+  position: relative;
+}
+
+.carousel__item {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: opacity, 0.5s ease-in-out;
+  transform: scale(0.9);
+  z-index: 0;
+}
+
+.carousel__item.on {
+  opacity: 1;
+  z-index: 1;
+  transform: none;
+}
+
+.carousel__item:nth-child(1) {
+  background-color: #ff4100;
+}
+.carousel__item:nth-child(2) {
+  background-color: #ff9875;
+}
+.carousel__item:nth-child(3) {
+  background-color: #ff9999;
+}
+.carousel__item:nth-child(4) {
+  background-color: #ffb9b9;
+}
+.carousel__item:nth-child(5) {
+  background-color: #ffd5d5;
+}
