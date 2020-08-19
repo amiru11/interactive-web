@@ -8,5 +8,8 @@ router.get('/', function (req, res, next) {
 router.get('/carousel', function (req, res, next) {
   res.render('carousel.html');
 });
+router.get('/modal', function (req, res, next) {
+  res.render('modal.html');
+});
 
 export default router;
