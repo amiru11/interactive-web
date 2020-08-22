@@ -11,5 +11,8 @@ router.get('/carousel', function (req, res, next) {
 router.get('/modal', function (req, res, next) {
   res.render('modal.html');
 });
+router.get('/parallax', function (req, res, next) {
+  res.render('parallax.html');
+});
 
 export default router;

@@ -1,0 +1,36 @@
+.parallax {
+  width: 100vw;
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax__first {
+  background-image: url('https://images.pexels.com/photos/3774081/pexels-photo-3774081.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+.parallax__second {
+  background-color: #ff9999;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
