@@ -14,5 +14,8 @@ router.get('/modal', function (req, res, next) {
 router.get('/parallax', function (req, res, next) {
   res.render('parallax.html');
 });
+router.get('/parallax_v2', function (req, res, next) {
+  res.render('parallax_v2.html');
+});
 
 export default router;
